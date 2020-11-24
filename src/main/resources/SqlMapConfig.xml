@@ -21,9 +21,12 @@
         </environment>
     </environments>
 
-    <!--指定映射配置文件的位置-->
+    <!--指定映射配置文件的位置，配置文件指的是每个dao独立的配置文件-->
+    <!--<mapper resource="com/waq/dao/UserDao.xml"></mapper>-->
+    <!--若采用注解，则使用class属性指定被注解的dao全限定类名-->
     <mappers>
-        <mapper resource="com/waq/dao/UserDao.xml"></mapper>
+        <mapper class="com.waq.dao.UserDao"></mapper>
+
     </mappers>
 
 </configuration>
