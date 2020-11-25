@@ -26,7 +26,6 @@
     <!--若采用注解，则使用class属性指定被注解的dao全限定类名-->
     <mappers>
         <mapper class="com.waq.dao.UserDao"></mapper>
-
     </mappers>
 
 </configuration>
