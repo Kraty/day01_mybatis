@@ -44,11 +44,12 @@ public class MybatisTest {
     public void testSaveUser() {
 
         User user = new User();
-        user.setUsername("小花");
-        user.setAddress("北京顺兴区");
+        user.setUsername("小王");
+        user.setAddress("中国北京顺兴区");
         user.setSex("男");
         user.setBirthday(new Date());
         userDao.saveUser(user);
+        System.out.println(user);
 
     }
 
@@ -91,6 +92,15 @@ public class MybatisTest {
         for (User user : users) {
             System.out.println(user);
         }
+
+    }
+
+    // 获取总记录数
+    @Test
+    public void testFindTotal() {
+
+        int count = userDao.findTotal();
+        System.out.println(count);
 
     }
 
