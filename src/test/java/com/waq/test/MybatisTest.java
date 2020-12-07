@@ -66,11 +66,31 @@ public class MybatisTest {
 
         User user = new User();
         user.setId(50);
-        user.setUsername("小花");
+        user.setUsername("小花花");
         user.setAddress("北京顺兴区");
         user.setSex("女");
         user.setBirthday(new Date());
         userDao.updateUser(user);
+
+    }
+
+    // 查询一个用户
+    @Test
+    public void testFindById() {
+
+        User user = userDao.findById(50);
+        System.out.println(user);
+
+    }
+
+    // 模糊查询
+    @Test
+    public void testFindByName() {
+
+        List<User> users = userDao.findByName("%王%");
+        for (User user : users) {
+            System.out.println(user);
+        }
 
     }
 
