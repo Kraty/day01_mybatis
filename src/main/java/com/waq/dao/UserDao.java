@@ -1,5 +1,6 @@
 package com.waq.dao;
 
+import com.waq.domain.QueryVo;
 import com.waq.domain.User;
 import org.apache.ibatis.annotations.*;
 
@@ -7,8 +8,13 @@ import java.util.List;
 
 public interface UserDao {
 
+
+    
     // 查询所有操作
     @Select("select * from user")
+    @Results(id = "resultMap", value = {
+            @Result(property = "username", column = "username")
+    })
     List<User> findAll();
 
     // 增加用户
@@ -32,10 +38,15 @@ public interface UserDao {
 
     // 模糊查询
     @Select("select * from user where username like #{name}")
+    @ResultMap("resultMap")
     List<User> findByName(String username);
 
     // 获取总记录数
     @Select("select count(id) from user")
     int findTotal();
+
+    // 包装类对象作为查询条件
+    @Select("select * from user where username like #{user.username}")
+    List<User> findByVo(QueryVo vo);
 
 }

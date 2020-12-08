@@ -1,6 +1,7 @@
 package com.waq.test;
 
 import com.waq.dao.UserDao;
+import com.waq.domain.QueryVo;
 import com.waq.domain.User;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSession;
@@ -12,6 +13,7 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -101,6 +103,22 @@ public class MybatisTest {
 
         int count = userDao.findTotal();
         System.out.println(count);
+
+    }
+
+    // 根据包装类对象作为查询条件
+    @Test
+    public void testFindByVo() {
+
+        QueryVo vo = new QueryVo();
+        User user = new User();
+        user.setUsername("%王%");
+        vo.setUser(user);
+        List<User> users = userDao.findByVo(vo);
+        for (User user1 : users) {
+            System.out.println(user1);
+        }
+
 
     }
 
