@@ -364,3 +364,96 @@
 2020-12-08 16:01:25,653 1010   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@62010f5c]
 2020-12-08 16:01:25,662 1019   [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@62010f5c]
 2020-12-08 16:01:25,662 1019   [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 1644236636 to pool.
+2020-12-09 20:42:32,648 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-09 20:42:32,670 22     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-09 20:42:32,670 22     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-09 20:42:32,670 22     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-09 20:42:32,671 23     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-09 20:42:32,742 94     [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-09 20:45:31,645 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-09 20:45:31,659 14     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-09 20:45:31,659 14     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-09 20:45:31,659 14     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-09 20:45:31,659 14     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-09 20:45:31,699 54     [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-09 20:45:32,347 702    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 664186542.
+2020-12-09 20:45:32,348 703    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2796aeae]
+2020-12-09 20:45:32,352 707    [           main] DEBUG    com.waq.dao.UserDao.findAll  - ==>  Preparing: select * from user 
+2020-12-09 20:45:32,382 737    [           main] DEBUG    com.waq.dao.UserDao.findAll  - ==> Parameters: 
+2020-12-09 20:45:32,423 778    [           main] DEBUG    com.waq.dao.UserDao.findAll  - <==      Total: 8
+2020-12-09 20:45:32,437 792    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2796aeae]
+2020-12-09 20:45:32,438 793    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@2796aeae]
+2020-12-09 20:45:32,438 793    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 664186542 to pool.
+2020-12-09 20:48:50,573 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-09 20:48:50,581 8      [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-12-09 20:48:50,581 8      [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-12-09 20:48:50,582 9      [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-12-09 20:48:50,582 9      [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-12-09 20:48:50,583 10     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-12-09 20:48:50,583 10     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/SSM/day01_mybatis/target/classes/com/waq/domain
+2020-12-09 20:48:50,583 10     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/SSM/day01_mybatis/target/classes/com/waq/domain
+2020-12-09 20:48:50,628 55     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2020-12-09 20:48:50,629 56     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-12-09 20:48:50,629 56     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/SSM/day01_mybatis/target/classes/com/waq/domain
+2020-12-09 20:48:50,629 56     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/SSM/day01_mybatis/target/classes/com/waq/domain/QueryVo.class
+2020-12-09 20:48:50,629 56     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/SSM/day01_mybatis/target/classes/com/waq/domain/QueryVo.class
+2020-12-09 20:48:50,630 57     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   : 
+2020-12-09 20:48:50,632 59     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/SSM/day01_mybatis/target/classes/com/waq/domain/User.class
+2020-12-09 20:48:50,632 59     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/SSM/day01_mybatis/target/classes/com/waq/domain/User.class
+2020-12-09 20:48:50,633 60     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   : H
+2020-12-09 20:48:50,634 61     [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.waq.domain.QueryVo matches criteria [is assignable to Object]
+2020-12-09 20:48:50,635 62     [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.waq.domain.User matches criteria [is assignable to Object]
+2020-12-09 20:48:50,667 94     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-09 20:48:50,668 95     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-09 20:48:50,668 95     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-09 20:48:50,668 95     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-09 20:50:03,840 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-09 20:50:03,862 22     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-09 20:50:03,864 24     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-09 20:50:03,864 24     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-09 20:50:03,864 24     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-09 20:50:03,869 29     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-12-09 20:50:03,869 29     [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-12-09 20:50:03,870 30     [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-12-09 20:50:03,870 30     [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-12-09 20:50:03,871 31     [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-12-09 20:50:38,785 0      [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+2020-12-09 20:50:38,788 3      [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VFS
+2020-12-09 20:50:38,789 4      [           main] DEBUG org.apache.ibatis.io.JBoss6VFS  - JBoss 6 VFS API is not available in this environment.
+2020-12-09 20:50:38,790 5      [           main] DEBUG       org.apache.ibatis.io.VFS  - Class not found: org.jboss.vfs.VirtualFile
+2020-12-09 20:50:38,790 5      [           main] DEBUG       org.apache.ibatis.io.VFS  - VFS implementation org.apache.ibatis.io.JBoss6VFS is not valid in this environment.
+2020-12-09 20:50:38,791 6      [           main] DEBUG       org.apache.ibatis.io.VFS  - Using VFS adapter org.apache.ibatis.io.DefaultVFS
+2020-12-09 20:50:38,791 6      [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/SSM/day01_mybatis/target/classes/com/waq/domain
+2020-12-09 20:50:38,791 6      [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/SSM/day01_mybatis/target/classes/com/waq/domain
+2020-12-09 20:50:38,826 41     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: QueryVo.class
+2020-12-09 20:50:38,826 41     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: User.class
+2020-12-09 20:50:38,827 42     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/SSM/day01_mybatis/target/classes/com/waq/domain
+2020-12-09 20:50:38,827 42     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/SSM/day01_mybatis/target/classes/com/waq/domain/QueryVo.class
+2020-12-09 20:50:38,827 42     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/SSM/day01_mybatis/target/classes/com/waq/domain/QueryVo.class
+2020-12-09 20:50:38,828 43     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   : 
+2020-12-09 20:50:38,829 44     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/SSM/day01_mybatis/target/classes/com/waq/domain/User.class
+2020-12-09 20:50:38,829 44     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/SSM/day01_mybatis/target/classes/com/waq/domain/User.class
+2020-12-09 20:50:38,830 45     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   : H
+2020-12-09 20:50:38,830 45     [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.waq.domain.QueryVo matches criteria [is assignable to Object]
+2020-12-09 20:50:38,831 46     [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.waq.domain.User matches criteria [is assignable to Object]
+2020-12-09 20:50:38,860 75     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-09 20:50:38,861 76     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-09 20:50:38,861 76     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-09 20:50:38,861 76     [           main] DEBUG source.pooled.PooledDataSource  - PooledDataSource forcefully closed/removed all connections.
+2020-12-09 20:50:38,863 78     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/SSM/day01_mybatis/target/classes/com/waq/dao
+2020-12-09 20:50:38,863 78     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/SSM/day01_mybatis/target/classes/com/waq/dao
+2020-12-09 20:50:38,863 78     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: UserDao.class
+2020-12-09 20:50:38,864 79     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Listing file:/D:/SSM/day01_mybatis/target/classes/com/waq/dao
+2020-12-09 20:50:38,864 79     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Find JAR URL: file:/D:/SSM/day01_mybatis/target/classes/com/waq/dao/UserDao.class
+2020-12-09 20:50:38,864 79     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Not a JAR: file:/D:/SSM/day01_mybatis/target/classes/com/waq/dao/UserDao.class
+2020-12-09 20:50:38,864 79     [           main] DEBUG rg.apache.ibatis.io.DefaultVFS  - Reader entry: ����   : 8  com/waq/dao/UserDao  java/lang/Object findAll ()Ljava/util/List; 	Signature )()Ljava/util/List<Lcom/waq/domain/User;>; RuntimeVisibleAnnotations &Lorg/apache/ibatis/annotations/Select; value select * from user 'Lorg/apache/ibatis/annotations/Results; id 	resultMap &Lorg/apache/ibatis/annotations/Result; property username column saveUser (Lcom/waq/domain/User;)V &Lorg/apache/ibatis/annotations/Insert; iinsert into user (username, address, sex, birthday) values (#{username}, #{address}, #{sex}, #{birthday}) )Lorg/apache/ibatis/annotations/SelectKey; 	statement select last_insert_id() keyProperty before     
+2020-12-09 20:50:38,871 86     [           main] DEBUG .apache.ibatis.io.ResolverUtil  - Checking to see if class com.waq.dao.UserDao matches criteria [is assignable to Object]
+2020-12-09 20:50:38,931 146    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Opening JDBC Connection
+2020-12-09 20:50:39,569 784    [           main] DEBUG source.pooled.PooledDataSource  - Created connection 858232531.
+2020-12-09 20:50:39,570 785    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Setting autocommit to false on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@332796d3]
+2020-12-09 20:50:39,573 788    [           main] DEBUG    com.waq.dao.UserDao.findAll  - ==>  Preparing: select * from user 
+2020-12-09 20:50:39,604 819    [           main] DEBUG    com.waq.dao.UserDao.findAll  - ==> Parameters: 
+2020-12-09 20:50:39,639 854    [           main] DEBUG    com.waq.dao.UserDao.findAll  - <==      Total: 8
+2020-12-09 20:50:39,650 865    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Resetting autocommit to true on JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@332796d3]
+2020-12-09 20:50:39,651 866    [           main] DEBUG ansaction.jdbc.JdbcTransaction  - Closing JDBC Connection [com.mysql.cj.jdbc.ConnectionImpl@332796d3]
+2020-12-09 20:50:39,651 866    [           main] DEBUG source.pooled.PooledDataSource  - Returned connection 858232531 to pool.
