@@ -13,7 +13,6 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -36,6 +35,7 @@ public class MybatisTest {
         List<User> users = userDao.findAll();
         for (User user : users) {
             System.out.println(user);
+            System.out.println(user.getAccounts());
         }
 
 

@@ -2,6 +2,7 @@ package com.waq.domain;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 /**
  * @author waq
@@ -14,6 +15,15 @@ public class User implements Serializable {
     private Date birthday;
     private String sex;
     private String address;
+    private List<Account> accounts;
+
+    public List<Account> getAccounts() {
+        return accounts;
+    }
+
+    public void setAccounts(List<Account> accounts) {
+        this.accounts = accounts;
+    }
 
     public Integer getId() {
         return id;
